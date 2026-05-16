@@ -18,18 +18,18 @@ const bodyFont = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Your Name | Developer Portfolio",
-    template: "%s | Your Name"
+    default: "Håkon R. Billingstad | Developer Portfolio",
+    template: "%s | Håkon R. Billingstad"
   },
   description: "An online resume showcasing coding projects, engineering decisions, and shipped results.",
   openGraph: {
-    title: "Your Name | Developer Portfolio",
+    title: "Håkon R. Billingstad | Developer Portfolio",
     description: "A curated portfolio of software projects and technical work.",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name | Developer Portfolio",
+    title: "Håkon R. Billingstad | Developer Portfolio",
     description: "A curated portfolio of software projects and technical work."
   }
 };

@@ -1,31 +1,59 @@
 # Developer Portfolio (Next.js)
 
-Personal website for showcasing software projects like an online resume.
+A personal portfolio website that works as an online resume and project showcase.
+It highlights coding projects, technical decisions, and links to live demos and repositories.
 
-## Run locally
+## Project Purpose
 
-1. Install Node.js 20+
-2. Install dependencies:
+- Showcase software projects in a structured, professional format
+- Present your skills, experience, and contact information in one place
+- Make it easy for recruiters and clients to evaluate your work quickly
+
+## Tech Stack
+
+- Next.js 15 (App Router)
+- React 19
+- TypeScript 5
+- Tailwind CSS 4 (via PostCSS)
+- ESLint 9 + `eslint-config-next`
+
+## Setup
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Install
 
 ```bash
 npm install
 ```
 
-3. Start development server:
+## Development Commands
 
 ```bash
 npm run dev
+npm run lint
+npm run build
+npm run start
 ```
 
-4. Open `http://localhost:3000`
+## Content Customization
 
-## Customize
+- Update projects: `src/data/projects.ts`
+- Update project type schema: `src/types/project.ts`
+- Update contact links: `src/app/contact/page.tsx`
+- Update site name and metadata: `src/components/navbar.tsx`, `src/app/layout.tsx`
+- Add resume file: `public/resume.pdf`
 
-- Update project entries in `src/data/projects.ts`
-- Replace placeholder contact links in `src/app/contact/page.tsx`
-- Add your resume PDF at `public/resume.pdf`
-- Change name text in `src/components/navbar.tsx` and `src/app/layout.tsx`
+## Deployment Notes
 
-## Deploy
+### Vercel (recommended)
 
-Deploy to Vercel by importing this repo and using default Next.js settings.
+1. Push repo to GitHub
+2. Import repository in Vercel
+3. Keep default Next.js settings
+4. Deploy
+
+No additional build config is required for current setup.
