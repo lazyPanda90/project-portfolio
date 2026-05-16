@@ -12,11 +12,6 @@ const contacts = [
     label: "GitHub",
     value: "https://github.com/lazyPanda90",
     href: "https://github.com/lazyPanda90"
-  },
-  {
-    label: "LinkedIn",
-    value: "linkedin.com/in/yourname",
-    href: "https://linkedin.com/in/yourname"
   }
 ];
 

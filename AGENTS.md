@@ -54,11 +54,7 @@ npm run start
 
 ## Known Issues / Gaps
 
-- Placeholder personal data still present:
-  - `Your Name`
-  - `you@example.com`
-  - sample GitHub/LinkedIn URLs
-  - sample project links in `src/data/projects.ts`
+- Sample project links still present in `src/data/projects.ts`
 - `public/resume.pdf` may not exist yet
 - Remote project thumbnails currently use Unsplash URLs
 

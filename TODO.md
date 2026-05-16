@@ -2,9 +2,6 @@
 
 ## High Priority
 
-- Replace all placeholder identity content:
-  - name in navbar/layout metadata
-  - email/GitHub/LinkedIn in contact page
 - Replace sample project entries in `src/data/projects.ts` with real projects
 - Add `public/resume.pdf`
 

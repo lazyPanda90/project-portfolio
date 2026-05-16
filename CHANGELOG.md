@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-05-16
+
+- Removed LinkedIn from the contact page.
+
 ## 2026-05-14
 
 - Initialized portfolio project with Next.js + TypeScript + Tailwind CSS
